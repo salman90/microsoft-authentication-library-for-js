@@ -67,7 +67,7 @@ npm install
 
 Note: If you suspect you are not using the local builds check that the `package.json` file shows the following dependencies:
 
-```
+```json
 "@azure/msal-react": "file:../../../lib/msal-react",
 "@azure/msal-browser": "file:../../../lib/msal-browser",
 "react": "file:../../../lib/msal-react/node_modules/react",
@@ -88,8 +88,8 @@ npm install
 #### Running the sample development server
 
 1. In a command prompt, run `npm start`.
-1. Open [http://localhost:4200](http://localhost:4200) to view it in the browser.
-1. Open [http://localhost:4200/profile](http://localhost:4200/profile) to see an example of a protected route. If you are not yet signed in, signin will be invoked automatically.
+1. Open [http://localhost:3000](http://localhost:4200) to view it in the browser.
+1. Open [http://localhost:3000/profile](http://localhost:4200/profile) to see an example of a protected route. If you are not yet signed in, signin will be invoked automatically.
 
 The page will reload if you make edits.
 You will also see any lint errors in the console.
@@ -100,8 +100,8 @@ You will also see any lint errors in the console.
 
 1. In a command prompt, run `npm run build`.
 1. Next run `serve -s build`
-1. Open [http://localhost:4200](http://localhost:4200) to view it in the browser.
-1. Open [http://localhost:4200/profile](http://localhost:4200/profile) to see an example of a protected route. If you are not yet signed in, signin will be invoked automatically.
+1. Open [http://localhost:3000](http://localhost:4200) to view it in the browser.
+1. Open [http://localhost:3000/profile](http://localhost:4200/profile) to see an example of a protected route. If you are not yet signed in, signin will be invoked automatically.
 
 #### Learn more about the 3rd-party libraries used to create this sample
 
